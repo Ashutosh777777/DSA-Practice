@@ -28,3 +28,9 @@ class Solution(object):
         b.next = a
         
         return b
+    
+    
+#     Swap nodes in pairs using pointers, not by changing values
+# Take two nodes (a, b), make a.next point to recursion of remaining list
+# Then set b.next = a and return b as new head of the pair
+# Base case: if list has 0 or 1 node, return head directly
