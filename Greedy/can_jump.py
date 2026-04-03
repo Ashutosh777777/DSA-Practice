@@ -18,7 +18,7 @@ class Solution(object):
                 return False
             maxi = max(maxi, i+nums[i])
         return (maxi>=(len(nums)-1))
-    
+
 # Maintain a variable maxi to track the farthest reachable index so far.
 # Traverse the array and check if the current index is reachable (i <= maxi).
 # Update maxi = max(maxi, i + nums[i]) at each step.
