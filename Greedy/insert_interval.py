@@ -31,4 +31,4 @@ class Solution:
 # Add all intervals that end before the new interval (no overlap).
 # Merge all overlapping intervals by updating the new interval’s start and end.
 # Append the merged new interval to the result.
-# Add the remaining intervals that start after the merged interval.
+# Add the remaining intervals that start after the merged interval. 
